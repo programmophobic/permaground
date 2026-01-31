@@ -2,7 +2,7 @@ package io.github.programmophobic.permaground.core;
 
 public class Element {
 
-    protected GameObject owner;
+    private GameObject owner;
 
     void setOwner(GameObject owner) {
         this.owner = owner;
